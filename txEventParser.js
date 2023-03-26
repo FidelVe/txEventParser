@@ -10,6 +10,7 @@
  * {
  * ...
  *  result: {
+ *    origin: "cx1212...",
  *    methodName: "Transfer",
  *    params: [
  *      {
@@ -51,7 +52,7 @@ async function txEventParser(log, scoreApi) {
 
   // create result object
   const result = {
-    scoreAddress: scoreAddress,
+    origin: scoreAddress,
     params: []
   };
 
