@@ -5,7 +5,7 @@
  * @param {Array} scoreApi - abi array
  * @return {Object} parsedLog - parsed log object
  * @example
- * const parsedLog = await txEventParser(log, scoreApi);
+ * const parsedLog = txEventParser(log, scoreApi);
  * console.log(parsedLog);
  * {
  * ...
@@ -33,7 +33,7 @@
  * }
  */
 
-async function txEventParser(log, scoreApi) {
+function txEventParser(log, scoreApi) {
   // get log data
   const { scoreAddress, indexed, data } = log;
 
@@ -110,7 +110,8 @@ async function txEventParser(log, scoreApi) {
 
   parsedLog.result = result;
 
-  return parsedLog;
+  // return parsedLog;
+  return result;
 }
 
 module.exports = {

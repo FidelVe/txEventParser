@@ -24,9 +24,9 @@ const eventList = [
 // main function
 // get tx result and parse logs
 async function main() {
+  const result = [];
   try {
     // create result array
-    const result = [];
 
     // loop eventList
     for (const event of eventList) {
@@ -38,11 +38,11 @@ async function main() {
 
       // loop eventLogs
       for (const eachLog of logs.eventLogs) {
-        // get abi
+        // // get abi
         const abi = await getScoreApi(eachLog.scoreAddress);
 
         // parse log
-        const parsed = await txEventParser(eachLog, abi);
+        const parsed = txEventParser(eachLog, abi);
 
         // save to parsedLogs
         parsedLogs.push(parsed);
@@ -74,6 +74,8 @@ async function main() {
     // print error
     console.log("Error running main()", e);
   }
+
+  console.log("result", result);
 }
 
 main();
