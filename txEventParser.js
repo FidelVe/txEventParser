@@ -108,9 +108,7 @@ function txEventParser(log, scoreApi) {
     }
   }
 
-  parsedLog.result = result;
-
-  // return parsedLog;
+  // return parsed events
   return result;
 }
 

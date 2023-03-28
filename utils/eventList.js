@@ -1,0 +1,59 @@
+// array of sample transaction hashes
+const eventList = [
+  {
+    hash: "0xabaa9a86a955750733b877b2bd034ef295c8d26d84e9efc2dd2d235d59d5982f"
+  },
+  {
+    hash: "0x38effea99ea0c0af3de6db69c8ce789d50fb98fe749005f5a5a2b6d3e8072be2"
+  },
+  {
+    hash: "0x2c779c20c794910da66519c2c9068d92e83fbcc79e9d897a19505717ad562ca9"
+  },
+  {
+    hash: "0x7155c1104831eb3584cd99037b18108ab46f4c97383319645c99ca3350c17b5b"
+  },
+  {
+    hash: "0xca1b56c8e61737de1799526ad49c3770bd8dc10d8058d674946e2b4d84b06739"
+  },
+  {
+    hash: "0xb617a8f4045fc2c007667123f4186a633f3e65df84e7a3c0aca2db3eb7c2fe2b"
+  },
+  {
+    hash: "0xc26593d7648695d631ee0757048ad05ae8cce6845fa477849495bf6f983f53ea"
+  },
+  {
+    hash: "0x365eae05abec6b6f15216b33eabe77e6c3ba546185f90d7000d453549320423a"
+  },
+  {
+    hash: "0x6341d5f213105917b15d7f360dd22b47accb0136d7442e808872a40e01dec962"
+  },
+  {
+    hash: "0xf80671e14f991eeb54a35ca4e26e639153c658ddb5982726a22f104dd80784e5"
+  },
+  {
+    hash: "0x80d5874c96bbfc1631ace7e2d3e6928495acda923f9d6e0ccf634c3caff3986f"
+  },
+  {
+    hash: "0x9c87273275815c7b3b4d1a467b9ee00cefda1f4508ad7cdb29a9ff4a8278a9ac"
+  },
+  {
+    hash: "0x7d67ba0542d29833b30ade17f295d3033beccba7dc4af4b94660612d1317dfe6"
+  },
+  {
+    hash: "0x5bca9cffca397d7720ee8f15a78cebac6265f02a2b6f509a84fed857324baefb"
+  },
+  {
+    hash: "0x92851b6ff0537ca57885420455f5941607d6f5b9a9ba6f0876f99fd89b83d6e5"
+  },
+  {
+    hash: "0x6f529cdbe08371e647121039ed8aba1718d561e6f20d1c606e989330393a7f2d"
+  },
+  {
+    hash: "0x7865cbbfb8b26a7232a08657fb971c0e10633e709c53407eade26f3275592109"
+  },
+  {
+    hash: "0xb6e60b2a968f199c558889b5dab34784b2548a3dc75ee279cb01dc8f931afbe6"
+  }
+];
+
+module.exports = eventList;

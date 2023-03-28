@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive ./test/*.test.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "script-types": "node ./scripts/paramTypes.js"
   },
   "keywords": [],
   "author": "",
